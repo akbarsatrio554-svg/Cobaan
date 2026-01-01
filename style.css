@@ -1,0 +1,7 @@
+body{margin:0;font-family:Arial,sans-serif;background:#0d1117;color:#e6edf3}
+header,footer{padding:12px;background:#161b22}
+.control,.status,.gempa{padding:12px}
+select{padding:6px;font-size:14px}
+iframe{width:100%;height:50vh;border:none;background:black}
+.gempa .item{border:1px solid #00FF00;padding:6px;margin-bottom:6px}
+h1,h2{color:#00FF00}

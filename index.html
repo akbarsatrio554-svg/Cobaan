@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard BMKG Nasional</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Dashboard Cuaca & Gempa BMKG</h1>
+  <p>Sumber resmi BMKG</p>
+</header>
+
+<section class="control">
+  <label>Pilih Provinsi:</label>
+  <select id="provinsi">
+    <option value="">-- pilih provinsi --</option>
+  </select>
+</section>
+
+<section class="status">
+  <p id="status">Menunggu pilihan provinsi</p>
+  <p id="update">Update: -</p>
+</section>
+
+<section class="radar">
+  <iframe id="radar"></iframe>
+</section>
+
+<section class="gempa">
+  <h2>Gempa Terkini Indonesia</h2>
+  <div id="gempaList">Memuat data...</div>
+</section>
+
+<footer>
+  <p>Monitoring Indonesia - BMKG</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
